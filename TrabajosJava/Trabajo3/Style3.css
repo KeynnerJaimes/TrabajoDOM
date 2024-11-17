@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e8f5e9;
+    padding: 20px;
+}
+
+.contenedor-busqueda {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-busqueda {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.campo-busqueda {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #80e27e;
+    border-radius: 5px;
+    color: #333;
+}
+
+.boton-busqueda {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #388e3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-busqueda:hover {
+    background-color: #2c6f2f;
+}
+
+.resultado-busqueda {
+    font-size: 18px;
+    color: #388e3c;
+}
+
+.contenedor-tabla {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-diccionario {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabla-diccionario th,
+.tabla-diccionario td {
+    padding: 12px;
+    border-bottom: 1px solid #80e27e;
+}
+
+.tabla-diccionario tr:hover {
+    background-color: #e8f5e9;
+}
+
+.tabla-diccionario th {
+    background-color: #388e3c;
+    color: white;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda en Tabla</title>
+    <link rel="stylesheet" href="Style3.css">
+</head>
+<body>
+    <div class="contenedor-busqueda">
+        <h1>Diccionario</h1>
+        <form id="formulario-busqueda" class="formulario-busqueda">
+            <input type="text" id="campo-busqueda" class="campo-busqueda" placeholder="Buscar palabra...">
+            <button type="submit" class="boton-busqueda">Buscar</button>
+        </form>
+        <div id="resultado-busqueda" class="resultado-busqueda">Resultados: 0 coincidencias</div>
+    </div>
+
+    <div class="contenedor-tabla">
+        <table id="tabla-diccionario" class="tabla-diccionario">
+            <thead>
+                <tr>
+                    <th>Palabra</th>
+                    <th>Definición</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manzana</td>
+                    <td>Es una fruta pomácea de forma redonda y sabor dulce o agrio. </td>
+                </tr>
+                <tr>
+                    <td>Plátano</td>
+                    <td>Es una fruta tropical procedente de la planta herbácea que recibe el mismo nombre o banano.</td>
+                </tr>
+                <tr>
+                    <td>Naranja</td>
+                    <td>Es el fruto del naranjo dulce, árbol que pertenece al género Citrusde la familia de las rutáceas.</td>
+                </tr>
+                <tr>
+                    <td>Sandía</td>
+                    <td>Es un fruto grande y de forma más o menos esférica que suele consumirse cruda como postre.</td>
+                </tr>
+                <tr>
+                    <td>Fresa</td>
+                    <td>Es un fruto de color rojo brillante, suculento y fragante que se obtiene de la planta que recibe su mismo nombre.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="JS3.js"></script>
+</body>
+</html>
